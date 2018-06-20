@@ -1,0 +1,722 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Version: 1.4
+Text Domain: twentyseventeen
+Template: twentyseventeen
+*/
+
+.site-branding {
+    position: absolute;
+    top: 0;
+}
+
+.wrap {
+    max-width: 1346px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navigation-top {
+    bottom: 0;
+    font-size: 13px;
+    left: 80px;
+    position: absolute;
+    right: 0;
+    top: 44px;
+	background:transparent;
+	border-top:none;
+	border-bottom:none;
+}
+
+.navigation-top a{ color:#fff; }
+
+.home header#masthead {
+    background-size: cover !important;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat !important;
+}
+
+.home header#masthead h1.top-text {
+    color: #fff;
+    font-size: 66px;
+    text-align: center;
+    padding-top: 222px;
+    padding-bottom: 252px;
+    font-weight: bold;
+	letter-spacing:1px;
+	text-transform:uppercase;
+    font-family: Trade_Gothic;
+}
+
+.event {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+
+section.three-items {
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.event h2 {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: Trade_Gothic;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.discount {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding-left: 230px;
+    padding-top: 152px;
+	padding-bottom: 207px;
+}
+
+.extra-image {
+    background: url(http://localhost/landing-page/wp-content/uploads/2017/12/Our-Mission.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.our-mision h2 {
+    font-family: Trade_Gothic;
+    color: #081e3f;
+    font-size: 40px;
+    font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.our-mision p {
+    font-size: 16px;
+    color: #081e3f;
+}
+
+.discount h3 {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+	font-family: Trade_Gothic;
+	margin-bottom: 0;
+}
+
+.discount p{ color:#fff; }
+
+.discount h4 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Trade_Gothic;
+    padding-top: 18px;
+    width: 59%;
+    padding-bottom: 2px;
+}
+
+a.shop-buton {
+    padding: 9px 43px;
+    background: #d11241;
+    color: #fff;
+    font-size: 16px;
+    font-family: Trade_Gothic;
+}
+
+.discount.new-arrival {
+    padding-left: 118px;
+    padding-top: 38px;
+	padding-bottom: 436px;
+}
+
+.discount.new-arrival h3{
+	color:#081e3f;
+}
+
+.upcoming-one {
+    /*background: url(http://localhost/landing-page/wp-content/uploads/2017/12/Events_Header_new.jpg);*/
+    padding: 100px 0 0px;
+    background-repeat: no-repeat !important;
+    background-color: #ccc !important;
+}
+
+.upcoming-one.forum-one {
+    /*background: url(http://localhost/landing-page/wp-content/uploads/2017/12/Community_Header_new.jpg);*/
+    padding: 100px 0px 0px;
+	background-repeat: no-repeat !important;
+    background-color: #ccc !important;
+}
+
+.main-comunity {
+    background: #d11241;
+	padding: 10px 15px;
+}
+
+.main-comunity h2 {
+    color: #fff;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: Trade_Gothic;
+}
+
+.main-comunity a{ padding:15px 25px; background:#081e3f; color: #fff; font-size: 15px; float: right; font-weight: normal; }
+
+.main-comunity.main-forum {
+    background: #3b5986;
+    padding: 10px 15px;
+}
+
+.main-comunity.main-forum h2{
+	color: #fff;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: Trade_Gothic;
+}
+
+.event h2 a {
+    color: #fff;
+}
+
+.event h2 a:hover {
+    text-decoration:none;
+}
+
+a.shop-buton:hover{
+	text-decoration:none;
+}
+
+.main-comunity a:hover{
+	text-decoration:none;
+}
+
+.main-comunity.main-forum a:hover{
+	text-decoration:none;
+}
+
+.forum-name a:hover{
+	text-decoration:none;
+}
+
+section.nike-shoe a.shop-collection:hover{
+	text-decoration:none;
+}
+
+a.getin-touch:hover{
+	text-decoration:none;
+}
+
+a.play:hover{
+	text-decoration:none;
+}
+
+a.learn:hover{
+	text-decoration:none;
+}
+
+.main-comunity.main-forum a{ padding:15px 25px; background:#081e3f; color: #fff; font-size: 15px; float: right; font-weight: normal; }
+
+section#sis_upcoming_events-2 {
+    margin-top: 81px;
+}
+
+#sis_upcoming_events-2 h4.events-list-title {
+    font-size: 29px;
+    color: #081e3f;
+	padding: 0px;
+}
+
+#sis_upcoming_events-2 h4.events-list-title a{ color: #081e3f; box-shadow:none; }
+
+#sis_upcoming_events-2 h2.widget-title {
+    font-size: 18px;
+    color: #d11241;
+    letter-spacing: 0;
+	padding-left: 20px;
+}
+
+.events-list-item p {
+    font-size: 18px;
+    color: #081e3f;
+}
+
+.events-list-date {
+	display: none;
+}
+
+#sis_upcoming_events-2 li.events-list-item {
+    box-shadow: 0px 8px 18px #ccc;
+    padding: 17px;
+    border-top: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-top: 10px;
+    background: url(http://localhost/landing-page/wp-content/themes/twentyseventeen-child/assests/images/Background_11.png);
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events-list-image {
+    display: none;
+}
+
+div#af-wrapper {
+    margin-top: 70px;
+}
+
+div#statistics {
+    display: none;
+}
+
+.home div#forum-header-container {
+    display: none;
+}
+
+.forum-name a {
+    font-size: 20px;
+    color: #081e3f;
+    text-transform: capitalize;
+}
+
+.forum-name small {
+    font-size: 15px;
+    color: #081e3f;
+}
+
+.page .navigation-top a, .single .navigation-top a {
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+
+.single .custom-header, .page-template-default .custom-header{
+    background-color: #081e3f;
+}
+
+.page-template-default .navigation-top{
+    top: 12px;
+}
+
+.page-template-event-tpl .navigation-top{
+    top: 12px;
+}
+
+.page-template-event-tpl .custom-header{ background-color: #081e3f; }
+
+/*.single .navigation-top, .page .navigation-top{ top:10px; }*/
+
+.page .entry-content {
+    width: 100% !important;
+}
+
+.site-navigation-fixed.navigation-top .wrap {
+    background: #081e3f;
+}
+
+/*.home .navigation-top{ top:44px; }*/
+
+ul#top-menu {
+    text-align: center;
+}
+
+section.nike-shoe {
+    /*background: url(http://localhost/landing-page/wp-content/uploads/2017/12/Nike-Team-RWB.jpg);*/
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+	padding-top: 200px;
+	height: 542px;
+}
+
+section.nike-shoe p {
+    color: #fff;
+    text-align: right;
+    font-size: 23px;
+}
+
+section.nike-shoe h2 {
+    color: #fff;
+    text-align: right;
+    padding: 0;
+    font-family: Trade_Gothic;
+    text-transform: uppercase;
+    font-size: 53px;
+    margin-bottom: 15px;
+}
+
+section.nike-shoe a.shop-collection {
+    float: right;
+    padding: 10px 15px;
+    background: #667a98;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 198px;
+}
+
+section.leadership-team {
+    /*background: url(http://localhost/landing-page/wp-content/uploads/2017/12/Forum-Highlight.jpg);*/
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+	padding-bottom: 180px;
+	padding-top: 21px;
+	background-position: 54% 0 !important;
+}
+
+div.forum {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.footclass {
+    margin-left: 176px !important;
+}
+
+.leadership-team .col-md-offset-6 {
+    margin-right: 50%;
+}
+
+.leadership-team h2{
+	color: #fff;
+    padding: 0;
+    font-family: Trade_Gothic;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.leadership-team p {
+    color: #fff;
+    font-size: 14px;
+	padding-bottom: 11px;
+}
+
+span.redcolor{
+	color:#d11241;
+}
+
+a.getin-touch {
+    padding: 8px 25px;
+    background: #d11241;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.triathlon-team h2{
+	color: #081e3f;
+    padding: 0;
+    font-family: Trade_Gothic;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.backimage {
+    /*background: url(http://localhost/landing-page/wp-content/uploads/2017/12/The-Triathlon-Team.jpg);*/
+    padding-top: 220px;
+    padding-bottom: 237px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.custom-arrange {
+    padding-right: 154px;
+    padding-top: 126px;
+    padding-bottom: 153px;
+}
+
+.triathlon-team p {
+    color: #081e3f;
+    font-size: 15px;
+}
+
+section.upcoming-eventc {
+    margin-bottom: 40px;
+    background: #ccc;
+    padding-top: 50px;
+	padding-bottom: 36px;
+}
+
+a.play {
+	padding: 8px 25px;
+    background: #d11241;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a.learn {
+	padding: 8px 25px;
+    background: #081e3f;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+	margin-left: 12px;
+}
+
+li.cycle-slide img.logo-img {
+	padding-left: 89px;
+    padding-top: 18px;
+}
+
+.partners h3 {
+    font-size: 19px;
+    color: #081e3f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+section.partners {
+    background: #ccc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#logo-slider{
+	background:transparent !important;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-left: 0;
+    font-size: 15px;
+    color: #081e3f;
+    text-transform: uppercase;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+section#nav_menu-2 {
+    padding-top: 35px;
+    border-top: 1px solid #fff;
+    background: #ccc;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 35px;
+}
+
+.footer-nav section#nav_menu-2 li a {
+    padding-left: 68px;
+	box-shadow: none;
+}
+
+footer#colophon {
+    background: #ccc;
+    border-top: 0;
+	margin-top: 0;
+	padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+footer#colophon p {
+    color: #081e3f;
+    font-size: 14px;
+}
+
+footer#colophon li {
+    display: inline-block;
+    padding-left: 19px;
+    font-size: 24px;
+}
+
+footer#colophon .fa {
+    color: #081e3f;
+}
+
+footer#colophon .textwidget ul li a {
+    box-shadow: none;
+}
+
+p {
+    font-size: 14px;
+    color: #081e3f;
+}
+
+h1.entry-title {
+    font-size: 35px !important;
+    color: #081e3f !important;
+    letter-spacing: 0 !important;
+}
+
+.arrange-second {
+    position: relative;
+    top: 90px;
+}
+
+div.forum {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-top: 10px;
+    background: url(http://localhost/landing-page/wp-content/themes/twentyseventeen-child/assests/images/Background_6.png);
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Responsive css */
+
+@media only screen and (max-width: 1024px) {
+    .custom-arrange {
+		padding-right: 0;
+		padding-top:20px;
+		padding-bottom: 18px;
+	}
+	
+    section.partners #logo-slider-wraper {
+		position: relative;
+		width: 78% !important;
+		left: 34px !important;
+	}
+	
+	li.cycle-slide img.logo-img{ padding-left: 89px; padding-top: 25px; }
+	
+	.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img{ max-width: 100% !important; }
+	
+	.navigation-top{ left:0; }
+}
+
+@media only screen and (max-width: 768px) {
+	.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img{ max-width: 100% !important; }
+	
+	.navigation-top{ left:0; }
+	
+	.clearfix{ clear:both; }
+	
+	.main-comunity {
+		padding: 30px 15px !important;
+	}
+	
+	.main-comunity h2 {
+		padding-top: 0px !important;
+		font-size: 20px !important;
+		position: relative;
+		top: -14px;
+	}
+	
+	.main-comunity a {
+		padding: 6px 17px !important;
+		font-size: 13px;
+		float: right;
+		position: relative;
+		top: -14px;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px){
+    section.nike-shoe a.shop-collection {
+		float: none;
+		margin-right: 0;
+	}
+	
+	.footclass {
+		margin-left: 0 !important;
+	}
+	
+	section.nike-shoe {
+		padding-top: 73px !important;
+		height: 458px !important;
+	}
+	
+	.discount {
+		padding-left: 20px;
+		padding-top: 6px;
+		padding-bottom: 20px;
+	}
+	
+	.navigation-top a {
+		color: #333;
+	}
+	
+	.menu-toggle{ color:#fff; }
+	
+	.home header#masthead h1.top-text{ padding-top: 0; padding-bottom: 0; }
+	
+	section.nike-shoe h2{ text-align:left; }
+	
+	section.nike-shoe p{ text-align:left; }
+	
+	.custom-arrange {
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 18px;
+	}
+	
+	li.cycle-slide img.logo-img {
+		padding-top: 25px;
+		padding-left: 20px;
+	}
+	
+	section#nav_menu-2{ text-align:left; }
+	
+	.footer-nav li{ display:block; }
+	
+	footer#colophon li:first-child{ padding-left:0; }
+	
+	footer#colophon ul {
+		margin-left: 0;
+	}
+	
+	.menu-toggle {
+		position: absolute;
+		right: 0;
+		top: -43px;
+		font-size: 17px;
+	}
+	
+	.footer-nav section#nav_menu-2 li a {
+		padding-left: 15px;
+	}
+	
+	.clearfix{ clear:both; }
+	
+	.main-comunity {
+		padding: 30px 15px !important;
+	}
+	
+	.main-comunity h2 {
+		padding-top: 5px;
+		font-size: 20px;
+		position: absolute;
+		top: -14px;
+	}
+	
+	.main-comunity a {
+		padding: 6px 17px;
+		font-size: 13px;
+		float: right;
+		position: relative;
+		top: -11px;
+	}
+	
+	.main-comunity.main-forum {
+		padding: 30px 15px;
+	}
+	
+	.main-comunity.main-forum h2{
+		padding-top: 5px;
+		font-size: 20px;
+		position: absolute;
+		top: -14px;
+	}
+	
+	.main-comunity.main-forum a{
+		padding: 6px 17px;
+		font-size: 13px;
+		float: right;
+		position: relative;
+		top: -11px;
+	}
+}
